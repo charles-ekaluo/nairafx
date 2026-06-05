@@ -31,7 +31,7 @@ Every Nigerian bank's internet banking and mobile app displays FX rates. Branch 
 ## Running Locally
 
 ```bash
-git clone https://github.com/<yourusername>/nairafx.git
+git clone https://github.com/charles-ekaluo/nairafx.git
 cd nairafx
 docker build -t nairafx-app:v1 ./app
 docker run -p 5000:5000 nairafx-app:v1
